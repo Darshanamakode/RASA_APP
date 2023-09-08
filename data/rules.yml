@@ -1,0 +1,45 @@
+version: "3.1"
+
+rules:
+- rule: Handle Greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Set Source
+  steps:
+  - intent: Source
+  - action: utter_Source
+
+- rule: User at the Gym
+  steps:
+  - intent: gym_source
+  - action: utter_gym_source
+
+- rule: User Wants to Go to the Conference Room
+  steps:
+  - intent: conference_destination
+  - action: utter_conference_destination
+
+- rule: Confirm Destination 
+  steps:
+  - intent: confirmation_yes
+  - action: utter_confirmation_yes
+
+- rule: provide confirm destination
+  steps:
+  - intent: confirmation_no
+  - action: utter_confirmation_no
+
+- rule: User at the Conference Room
+  steps:
+  - intent: conferenceroom_source
+  - action: utter_conferenceroom_source
+
+- rule: User Wants to Go to the Cafeteria
+  steps:
+  - intent: cafeteria_destination
+  - action: utter_cafeteria_destination
+
+
+

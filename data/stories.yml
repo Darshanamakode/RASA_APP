@@ -1,0 +1,51 @@
+version: "3.1"
+
+stories:
+- story: Greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Set Source
+  steps:
+  - intent: Source
+  - action: utter_Source
+
+- story: User is at the Gym
+  steps:
+  - intent: gym_source
+  - action: utter_gym_source
+
+- story: User Wants to Go to the Conference Room
+  steps:
+  - intent: conference_destination
+  - action: utter_conference_destination
+
+- story: User Confirms Destination 
+  steps:
+  - intent: confirmation_yes
+  - action: utter_confirmation_yes
+
+- story: User is not in the Destination
+  steps:
+  - intent: confirmation_no
+  - action: utter_confirmation_no
+
+- story: User is at the Conference Room
+  steps:
+  - intent: conferenceroom_source
+  - action: utter_conferenceroom_source
+
+- story: User Wants to Go to the Cafeteria
+  steps:
+  - intent: cafeteria_destination
+  - action: utter_cafeteria_destination
+
+
+
+
+
+
+
+
+

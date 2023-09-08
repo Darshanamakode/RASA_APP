@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - Source
+  - gym_source
+  - conference_destination
+  - confirmation_yes
+  - confirmation_no
+  - conferenceroom_source
+  - cafeteria_destination
+
+responses:
+  utter_greet:
+    - text: "Hi, This is bot. What is your current location?"
+
+  utter_Source:
+    - text: "Your source has been set, please say your destination?"
+
+  utter_gym_source:
+    - text: "Are you at the gym? Please say the word gym."
+
+  utter_conference_destination:
+    - text: "If you want to go to the conference room, please say yes."
+
+  utter_confirmation_yes:
+    - text: "Your destination has been set."
+
+  utter_confirmation_no:
+    - text: "Please confirm your destination."
+
+  utter_conferenceroom_source:
+    - text: "Are you at the conference room? Please say the word conference room."
+
+  utter_cafeteria_destination:
+    - text: "If you want to go to the cafeteria, please say yes."
+
+actions:
+  - utter_greet
+  - utter_Source
+  - utter_gym_source
+  - utter_conference_destination
+  - utter_confirmation_yes
+  - utter_confirmation_no
+  - utter_conferenceroom_source
+  - utter_cafeteria_destination
+
+
+
+
+
+

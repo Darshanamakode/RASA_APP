@@ -1,0 +1,61 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: Source
+  examples: |
+    - gym
+    - conference room
+    - cafeteria
+
+- intent: gym_source
+  examples: |
+    - I am at the gym
+    - Currently, I'm in the gym
+    - I've reached the gym
+
+- intent: conference_destination
+  examples: |
+    - I want to go to the conference room
+    - Guide me to the conference room
+    - Can you direct me to the conference room
+
+- intent: confirmation_yes
+  examples: |
+    - yes
+    - YES
+    - yes
+
+- intent: confirmation_no
+  examples: |
+    - no
+    - NO
+
+- intent: conferenceroom_source
+  examples: |
+    - I am at the conference room
+    - Currently, I'm in the conference room
+    - I've reached the conference room
+
+- intent: cafeteria_destination
+  examples: |
+    - I want to go to cafeteria
+    - Guide me to cafeteria
+    - Can you direct me to the cafeteria
+
+
+
+
+
+
+
+
+
+
+
+
